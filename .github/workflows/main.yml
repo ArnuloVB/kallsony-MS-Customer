@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "aespicaacrqa"
+  AZURE_CONTAINER_REGISTRY: "aespicaacrprod"
   CONTAINER_NAME: "kallsonycustomercontainer"
-  RESOURCE_GROUP: "AES-PICA-RG-QA"
-  CLUSTER_NAME: "AES-PICA-AKSQA"
+  RESOURCE_GROUP: "AES-PICA-RG-PROD"
+  CLUSTER_NAME: "AES-PICA-AKSPROD"
   IMAGE_PULL_SECRET_NAME: "kallsonycustomerimg"
   CHART_PATH: "./ksResource/Helm/HelmCharts"
   CHART_OVERRIDE_PATH: "./ksResource/Helm/values.yaml"
