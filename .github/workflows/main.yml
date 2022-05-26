@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "AESPICAACRQA"
+  AZURE_CONTAINER_REGISTRY: "aespicaacrqa"
   CONTAINER_NAME: "kallsonycustomercontainer"
   RESOURCE_GROUP: "AES-PICA-RG-QA"
   CLUSTER_NAME: "AES-PICA-AKSQA"
